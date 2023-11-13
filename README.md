@@ -13,7 +13,7 @@
    
 6.  Submit your solution as a GitHub link or a zipped file containing the diagram image, CloudFormation yml and json files, automation scripts and README file.
 
-## Script spin up:
+## Script for deploy cloudformation:
 
 #### Create stacks:
 step 1: go to starter folder
