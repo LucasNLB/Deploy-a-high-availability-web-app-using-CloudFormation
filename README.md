@@ -16,13 +16,13 @@
 ## Script for deploy cloudformation:
 
 #### Create stacks:
-step 1: go to starter folder
-step 2: run create-network-stacks.sh to create the network stack
-step 3: run create-instance-stacks.sh after the network stack is created successfully (<font color="red"><strong>do not run create-instance-stacks.sh first when we want to create stack, some resources are refered to network stacks resources</strong></font>)
-step 4: access to the output udatgram-stack to test loaddb_url (name is binhnlt-LoadBalancer-Endpoint)
+step 1: go to starter folder.
+step 2: run create-network-stacks.sh to create the network stack.
+step 3: run create-instance-stacks.sh after the network stack is created successfully (<font color="red"><strong>do not run create-instance-stacks.sh first when we want to create stack, some resources are refered to network stacks resources</strong></font>).
+step 4: access to the output udatgram-stack to test loaddb_url (name is binhnlt-LoadBalancer-Endpoint).
 #### Update stacks:
-step 1: go to configurations folder
-step 2: run update-instance-stacks.sh, if you want to update the instance stack and if you want to update the network stack in case the instance stack has already created, then delete the instance stack first before running update-instance-stacks.sh
+step 1: go to configurations folder.
+step 2: run update-instance-stacks.sh, if you want to update the instance stack and if you want to update the network stack in case the instance stack has already created, then delete the instance stack first before running update-instance-stacks.sh.
 #### Delete stacks:
 step 1: go to configurations folder
 step 2: run delete-instance-stacks.sh first and then delete-network-stacks.sh
